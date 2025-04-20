@@ -9,6 +9,7 @@ from rapidfuzz import fuzz
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
+import en_core_web_md
 
 def combine_data(file_list, path_way, output_file="Coursera_combined_data.csv"):
     combine_df = pd.DataFrame()
@@ -80,7 +81,7 @@ def load_job_embeddings():
 
 # Function to extract skills from the Job Responsibility column
 def extract_skills_from_job_responsibility(job_responsibility_text):
-    nlp = spacy.load("en_core_web_md")
+    nlp = en_core_web_md.load()
     
     known_skills = [
         "python", "r", "sql", "java", "scala", "c++", "matlab", "julia", "mysql", 
@@ -127,7 +128,7 @@ def extract_skills_from_job_responsibility(job_responsibility_text):
 
 # Function to extract skills from the Resume text
 def extract_skills_from_resume(resume_text):
-    nlp = spacy.load("en_core_web_md")
+    nlp = en_core_web_md.load()
     
     known_skills = [
         "python", "r", "sql", "java", "scala", "c++", "matlab", "julia", "mysql", 
