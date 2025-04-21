@@ -1,4 +1,4 @@
-# Job Seeker System
+# Job Seeker Recommendation System
 ---
 ![Main Image](https://github.com/Zhiweikau/Job-Seeker-System/blob/main/Job%20Seeker%20System%20Workflow.png)
 
