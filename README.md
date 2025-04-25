@@ -7,3 +7,6 @@
 
 ## Documentation:
 - [Project Documentation](https://github.com/Zhiweikau/Job-Seeker-System/blob/main/Job%20Seeker%20System%20Documentation.pdf)
+
+## User Manual:
+
