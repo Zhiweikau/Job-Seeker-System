@@ -1,6 +1,6 @@
 # Job Seeker Recommendation System
 ---
-<img src="https://github.com/Zhiweikau/Job-Seeker-System/blob/main/Job%20Seeker%20System%20Workflow.png" width="800" height="1000">
+<img src="https://github.com/Zhiweikau/Job-Seeker-System/blob/main/Job%20Seeker%20System%20Workflow.png" width="800" height="900">
 
 ## URL Link:
 - [Job_Seeker_Recommendation_System](https://job-seeker-system-ef56arkxgtf5kqf5niegjn.streamlit.app/)
